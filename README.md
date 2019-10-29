@@ -13,7 +13,7 @@ Read through the headlines to find an article that interests you. You can save t
 
 To review all saved articles, click the "Saved Articles" link located in the Nav bar. Here you should see your saved articles, and you are able to both "unsave" them or write a note about the article. Click the "Add/View Notes" button to write a note or see previous notes!
 
-![Image of app](public/images/gif-mongo-scraper.gif)
+![Image of app]
 
 ## Technology Used
 * Node.js
@@ -29,5 +29,3 @@ To review all saved articles, click the "Saved Articles" link located in the Nav
    * cheerio
    * request
 
-### Portfolio 
-**If you'd like to see more of my work, check out my portfolio [here](https://rocky-refuge-62195.herokuapp.com/#)
