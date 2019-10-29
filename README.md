@@ -1,4 +1,4 @@
-# Mongo-Scraper
+# Mongo Scraper
 A web app that uses Mongoose to scrape news headlines from ArtNews. 
 
 [View the app here](https://mongoscraperhomework.herokuapp.com/)
