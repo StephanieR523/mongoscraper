@@ -1,7 +1,7 @@
 # Mongo Scraper
 A web app that uses Mongoose to scrape news headlines from ArtNews. 
 
-[View the app here](https://mongoscraperhomework.herokuapp.com/)
+[Heroku App](https://mongoscraperhomework.herokuapp.com/)
 
 ## Motivation
 I created this app in order to gain experience using the NoSQL database MongoDB, Mongoose, and Cheerio (an npm package utilized for web-scraping).
