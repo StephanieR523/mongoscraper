@@ -1,0 +1,34 @@
+{{! Nav Bar }}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Mongo-Scraper</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="/saved">Saved Articles</a>
+      {{!-- <a class="nav-item nav-link" href="/clearall">Clear Articles</a> --}}
+    </div>
+  </div>
+</nav>
+
+{{! Main Header Image }}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 text-center">Saved Articles</h1>
+    <p class="lead text-center"><strong>Review and add notes to your saved articles from ArtNews.</strong></p>
+  </div>
+</div>
+
+{{! Articles }}
+<div id="articles">
+    {{#each articles}}
+        {{> saved-article }}
+    {{/each}}
+</div>
+
+{{! Modal for Notes }}
+{{#each articles}}
+    {{> modal }}
+{{/each}}
