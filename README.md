@@ -1,5 +1,5 @@
 # Mongo-Scraper
-A web app that uses Mongoose and Cherrio to scrape news headlines from ArtNews. 
+A web app that uses Mongoose to scrape news headlines from ArtNews. 
 
 [View the app here](https://mongoscraperhomework.herokuapp.com/)
 
@@ -26,6 +26,5 @@ To review all saved articles, click the "Saved Articles" link located in the Nav
    * express
    * express-handlebars
    * mongoose
-   * cheerio
-   * request
+
 
