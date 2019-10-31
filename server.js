@@ -34,11 +34,8 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-// Connecting to the Mongo DB
-// mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/homework";
 
-mongoose.connect(MONGODB_URI);
+
 
 /*==========================
            Routes
@@ -162,3 +159,6 @@ app.post("/deleteNote/:id", function(req, res){
 app.listen(PORT, function() {
     console.log("App running on port " + PORT + "!");
   });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/homework";
+
+mongoose.connect(MONGODB_URI);
